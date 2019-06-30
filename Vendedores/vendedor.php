@@ -26,6 +26,26 @@ class vendedor {
     function  getCod() {
         return $this->Cod;
     }
+    
+    function  setID($ID) {
+        $this->ID = $ID;
+    }
+    
+    function  setNome($Nome) {
+        $this->Nome = $Nome;
+    }
+    
+    function setVend_1($Vend_1) {
+        $this->Vend_1 = $Vend_1;
+    }
+    
+    function  setVend_2($Vend_2) {
+        $this->Vend_2 = $Vend_2;
+    }
+    
+    function  setCod($Cod) {
+        $this->Cod = $Cod;
+    }
 }
 /* 
  * To change this license header, choose License Headers in Project Properties.
